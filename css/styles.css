@@ -1,0 +1,38 @@
+
+.conteudo{
+    margin-left: 30%;
+    width: 400px;
+    padding: 40px;
+    border:1px solid #ccc;
+    
+    }
+
+input{
+    width: 400px;
+}
+h4{
+  text-align: center;  
+}
+
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 120px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Cadastro de Pacientes</title>
+</head>
+
+<body>
+    
+    <div class="conteudo">
+    <h2>Ficha do Paciente:(Sis-Dev-Clinical)</h2>
+    <form action="http://localhost:8080/meusDados" method="get">
+        Nome: <input type="text" name="nome"><br>
+        <p></p>
+        Idade: <input type="number" name="idade"><br>
+        <p></p>
+        Data de Nascimento: <input type="date" name="nascimento"><br>
+        <p></p>
+        Endereço: <input type="text" name="endereco"><br>
+        <p></p>
+        Cidade: <input type="text" name="cidade"><br>
+        <p></p>
+        Estado: <input type="text" name="estado"><br>
+        <p></p>
+        Bairro: <input type="text" name="bairro"><br>
+        <p></p>
+       
+        <h4>Anamnese</h4>
+        <textarea name="texto" rows="10" cols="80"></textarea>
+        <button type="submit">Enviar dados</button>
+    </div>
+    
+    
+</body>
+
+</html>
